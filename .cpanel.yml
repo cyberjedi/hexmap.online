@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/theshfmb/public_html/hexmap.online
+    - /bin/cp -r build/* $DEPLOYPATH
