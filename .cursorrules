@@ -1,0 +1,14 @@
+This is a React/Node.js web application for tabletop RPG mapping (HexMap.Online).
+- Follow the React functional component pattern with hooks
+- Use Socket.io for real-time communication
+- MySQL database with normalized structure
+- Optimize for mobile/tablet support with responsive design
+- Firebase authentication
+- Ensure compatibility with Discord Activity embedding:
+  - Use relative URLs for assets and API endpoints where possible
+  - Do not set restrictive X-Frame-Options headers
+  - Configure CSP headers to allow Discord embedding
+  - Design UI to work well within Discord's iframe constraints
+
+My local environment is MacOS. Use terminal comments to do filesystem work. 
+The main directory for this project is /Users/stuartgreenwell/SP-Cursor/hexmap.online
